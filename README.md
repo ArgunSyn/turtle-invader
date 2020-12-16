@@ -3,6 +3,7 @@ A small game about a turtle shooting water to paper birds. Made while learning p
 
 ### Installing 
 Just install python and pygame if you dont have it
+<br />
 Cheers!
 
 
