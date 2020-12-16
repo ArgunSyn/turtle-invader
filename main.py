@@ -9,7 +9,7 @@ screen = pygame.display.set_mode((800, 600))
 
 background = pygame.image.load("images/background.png")
 
-mixer.music.load("sounds/background.wav")
+mixer.music.load("sounds/16th arpegios.mp3")
 mixer.music.play(-1)
 
 pygame.display.set_caption("Turtle Invader")
@@ -164,6 +164,7 @@ while running:
             if event.key == pygame.K_SPACE:
                 if bullet_state == "ready":
                     bullet_sound = mixer.Sound("sounds/bullet.wav")
+                    mixer.Sound.set_volume(bullet_sound, 0.25)
                     bullet_sound.play()
                     bulletX = playerX
                     fire_bullet(bulletX, bulletY)
@@ -205,6 +206,7 @@ while running:
         collision = isCollision(enemyX[i], enemyY[i], bulletX, bulletY)
         if collision:
             explosion_sound = mixer.Sound("sounds/explosion.wav")
+            mixer.Sound.set_volume(explosion_sound, 0.25)
             explosion_sound.play()
             bulletY = 480
             bullet_state = "ready"
