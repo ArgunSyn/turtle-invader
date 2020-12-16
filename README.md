@@ -12,6 +12,7 @@ Cheers!
 <details open="open">
   <summary>Extra links</summary>
   <ul>
-    <li>for more music: https://soundcloud.com/argunsayin</li>    
+    <li>I made this music in a random looping session in Ableton
+    <li>If you liked it feel free to check my<a href"https://soundcloud.com/argunsayin" Soundcloud</li>    
   </ul>
 </details>
