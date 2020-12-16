@@ -1,6 +1,9 @@
-# turtle-invader
+# Turtle-invader
+A small game about a turtle shooting water to paper birds. Made while learning pygame
 
-### A small game made while learning pycharm
+### Installing 
+Just install python and pygame if you dont have it
+Cheers!
 
 
 <br />
